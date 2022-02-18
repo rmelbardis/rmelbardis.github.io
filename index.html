@@ -14687,7 +14687,7 @@ div.jp-OutputPrompt {
 <p>🎯 Focus on two things:</p>
 <ul>
 <li>Analysis of stand-up comedy and written jokes</li>
-<li>Training an AI to write stand-up, preferably with hilarious consequences.</li>
+<li>Training an AI to write stand-up, preferably with hilarious consequences</li>
 </ul>
 
 </div>
@@ -14702,9 +14702,9 @@ div.jp-OutputPrompt {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li><p>Scrape ‘Scraps from the Loft’ to obtain dataset of comedy specials (possibly also Netflix subtitles)</p>
+<li><p>Scrape <a href="http://scrapsfromtheloft.com/stand-up-comedy-scripts/">Scraps from the Loft</a> to obtain dataset of comedy specials (possibly also Netflix subtitles)</p>
 </li>
-<li><p>Cross reference against IMDB/Rotten Tomato scores</p>
+<li><p>Cross reference against <a href="https://www.imdb.com/">IMDB</a>/<a href="https://www.rottentomatoes.com/">Rotten Tomatoes</a> scores</p>
 </li>
 </ul>
 
@@ -14754,6 +14754,8 @@ div.jp-OutputPrompt {
 <span class="kn">import</span> <span class="nn">nltk</span>
 <span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
 <span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">LatentDirichletAllocation</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.preprocessing.text</span> <span class="kn">import</span> <span class="n">Tokenizer</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">Embedding</span>
 </pre></div>
 
      </div>
@@ -14773,9 +14775,9 @@ div.jp-OutputPrompt {
 <ol>
 <li><p>Use the same dataset &amp; potentially some other clean data from Kaggle</p>
 </li>
-<li><p>Use a Deep Learning model (pre-trained or new) to train a Comedy Bot on the dataset(s) assembled.</p>
+<li><p>Use a Deep Learning model (pre-trained or new) to train a Comedy Bot on the dataset(s) assembled</p>
 </li>
-<li><p>Ideally provide the bot with 1-2 word topics to create stand-up on.</p>
+<li><p>Ideally provide the bot with 1-2 word topics to create stand-up on</p>
 </li>
 </ol>
 <p>Not expecting it to be good, but likely going to be unfunny in a funny way.</p>
@@ -14814,7 +14816,7 @@ div.jp-OutputPrompt {
 <ul>
 <li>Dropdown lists</li>
 <li>Buttons</li>
-<li>Maybe some awful 90's-style HTML.</li>
+<li>Maybe some awful 90's-style HTML</li>
 </ul>
 
 </div>
@@ -14842,7 +14844,7 @@ div.jp-OutputPrompt {
      alt = "Soundflower"
      width="50" 
      height="50" /></p>
-<p>Step 1: Stream Netflix comedy specials &amp; capture sound using Soundflower (Mac only) or JACK Audio &amp; capture subtitles directly from Netflix .srt files. Expect 50-100 routines of ~50-100hrs total</p>
+<p>Step 1: Stream Netflix comedy specials &amp; capture sound using Soundflower (Mac only) or JACK Audio &amp; capture subtitles directly from Netflix .srt files. Expect 50-100 routines of ~50-100hrs total.</p>
 <hr>
 
 </div>
@@ -14862,7 +14864,7 @@ div.jp-OutputPrompt {
 </div></div><div class="fragment">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Step 3: Detect Laughter</p>
+<p>Step 3: Detect Laughter.</p>
 <p><a href="https://github.com/jrgillick/laughter-detection">jrgillick Laughter Detection Repo</a></p>
 <hr>
 
@@ -14871,7 +14873,7 @@ div.jp-OutputPrompt {
 </div></div><div class="fragment">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Step 4: Incorporate insights into analysis and Comedy Bot</p>
+<p>Step 4: Incorporate insights into analysis and Comedy Bot.</p>
 
 </div>
 </div>
